@@ -12,7 +12,7 @@ public class NormalSpringApplication {
 	public static Logger log=LoggerFactory.getLogger(NormalSpringApplication.class);
 	@PostConstruct
 	public void ram(){
-		log.info("Application Started......");
+		log.info("Application Started.....123.");
 	}
 	public static void main(String[] args) {
 		log.info("Application executed......");
